@@ -1,0 +1,11 @@
+.statistics{
+  margin-top: 50px;
+}
+
+.ico > img:first-of-type {
+  width: 50%;
+}
+
+.row {
+  margin-top: 40px;
+}

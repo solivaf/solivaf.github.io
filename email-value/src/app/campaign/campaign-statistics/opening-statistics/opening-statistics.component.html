@@ -1,0 +1,18 @@
+<div class="jumbotron col-md-10 col-md-offset-1">
+  <table class="table table-bordered">
+    <thead>
+    <tr>
+      <th class="col-md-4">To</th>
+      <th class="col-md-3">First Opening</th>
+      <th class="col-md-3">Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let statistics of openingStatistics">
+      <td>{{statistics.to}}</td>
+      <td>{{statistics.firstOpening}}</td>
+      <td>{{statistics.date | date: 'dd/mm/yyyy hh:mm:ss a'}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

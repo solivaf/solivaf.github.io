@@ -1,0 +1,15 @@
+.row {
+  margin-top: 40px ;
+}
+
+.ico {
+  height: 24px;
+}
+
+td {
+  cursor: pointer;
+}
+
+td:first-child, td:last-child {
+  cursor: auto;
+}

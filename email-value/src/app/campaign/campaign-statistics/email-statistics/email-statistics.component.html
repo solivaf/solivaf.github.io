@@ -1,0 +1,18 @@
+<div class="jumbotron col-md-10 col-md-offset-1">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th class="col-md-1">Status</th>
+        <th class="col-md-5">To</th>
+        <th class="col-md-3">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let statistics of emailStatistics">
+        <td>{{statistics.status}}</td>
+        <td>{{statistics.to}}</td>
+        <td>{{statistics.date | date: 'dd/mm/yyyy hh:mm:ss a'}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
